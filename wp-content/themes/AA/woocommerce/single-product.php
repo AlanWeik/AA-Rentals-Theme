@@ -1,0 +1,100 @@
+<?php
+/**
+ * The Template for displaying all single products
+ *
+ * This template can be overridden by copying it to yourtheme/woocommerce/single-product.php.
+ *
+ * HOWEVER, on occasion WooCommerce will need to update template files and you
+ * (the theme developer) will need to copy the new files to your theme to
+ * maintain compatibility. We try to do this as little as possible, but it does
+ * happen. When this occurs the version of the template file will be bumped and
+ * the readme will list any important changes.
+ *
+ * @see         https://woocommerce.com/document/template-structure/
+ * @package     WooCommerce\Templates
+ * @version     1.6.4
+ */
+
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
+get_header( 'shop' ); ?>
+
+	<?php
+		/**
+		 * woocommerce_before_main_content hook.
+		 *
+		 * @hooked woocommerce_output_content_wrapper - 10 (outputs opening divs for the content)
+		 * @hooked woocommerce_breadcrumb - 20
+		 */
+		do_action( 'woocommerce_before_main_content' );
+	?>
+
+		<?php while ( have_posts() ) : ?>
+			<?php the_post(); ?>
+
+			<?php 
+			// Hero Section
+			global $product;
+			$image_id = $product->get_image_id();
+			$image_url = wp_get_attachment_image_url( $image_id, 'full' );
+			?>
+			
+			<div class="product-hero" style="
+				height: 60vh;
+				background-image: url('<?php echo esc_url( $image_url ); ?>');
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				position: relative;
+				margin-bottom: 2rem;
+			">
+				<div style="
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					background: rgba(0, 0, 0, 0.3);
+				"></div>
+				<div style="
+					position: relative;
+					z-index: 1;
+					text-align: center;
+					color: white;
+					padding: 2rem;
+				">
+					<h1 style="
+						font-size: 3rem;
+						margin-bottom: 1rem;
+						text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+					"><?php echo esc_html( $product->get_name() ); ?></h1>
+					<div style="
+						font-size: 2rem;
+						font-weight: bold;
+						text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+					"><?php echo $product->get_price_html(); ?></div>
+				</div>
+			</div>
+
+			<?php wc_get_template_part( 'content', 'single-product' ); ?>
+
+		<?php endwhile; // end of the loop. ?>
+
+	<?php
+		/**
+		 * woocommerce_after_main_content hook.
+		 *
+		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
+		 */
+		do_action( 'woocommerce_after_main_content' );
+	?>
+
+<?php
+get_footer( 'shop' );
+
+/* Omit closing PHP tag at the end of PHP files to avoid "headers already sent" issues. */

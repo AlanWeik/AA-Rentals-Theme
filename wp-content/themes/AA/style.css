@@ -1,0 +1,211 @@
+/*
+Theme Name: AA
+Theme URI: https://example.com/aa-rentals
+Author: Alan Weik
+Author URI: https://example.com
+Description: Ett minimalistiskt och responsivt WordPress-tema för hudvårdsbutiker online.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: AA
+*/
+
+/* === Färger och variabler === */
+:root {
+   
+    /* Huvudfärger */
+    --primary-color:       #e9ff41;    /* Din befintliga lime/neongröna – perfekt som primary/accent */
+    --primary-dark:        #c0d636;    /* Mörkare variant för hover, active etc */
+    --primary-light:       #f2ff9e;    /* Väldigt ljus variant för subtila bakgrunder */
+
+    /* Neutrala basfärger */
+    --background-color:    #000000;    /* Ren svart */
+    --background-alt:      #0a0a0a;    /* Nästan svart – bra för lite djup */
+    --background-alt-2:    #111111;    /* För kort, sektioner etc */
+    --background-alt-3:    #1a1a1a;    /* Lite ljusare gråsvart */
+
+    /* Textfärger */
+    --text-color:          #ffffff;    /* Vit text */
+    --text-color-muted:    #aaaaaa;    /* Ljusgrå för secondary text */
+    --text-color-light:    #cccccc;    /* Mellanläge */
+
+    /* Accent & interaktion */
+    --accent-color:        #e9ff41;
+    --accent-hover:        #c0d636;
+    --link-color:          #e9ff41;
+    --link-hover-color:    #ffffff;    /* Vit vid hover för extra kontrast */
+
+    /* Knappar (transparent + outline) */
+    --button-border:       #e9ff41;
+    --button-border-hover: #ffffff;
+    --button-text-hover:   #000000;
+    --button-bg-hover:     #e9ff41;     /* Filled vid hover om du vill */
+
+    /* Övrigt */
+    --success-color:       #4caf50;
+    --warning-color:       #ff9800;
+    --error-color:         #f44336;
+
+    /* Typsnitt (valfritt) */
+    /* --font-primary:        "Inter", "Space Grotesk", system-ui, sans-serif;
+    --font-mono:           "JetBrains Mono", "Fira Code", monospace; */
+
+     --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Open Sans", sans-serif; 
+   
+    /* --primary-color: #e29797;
+    --secondary-color: #363b3f;
+    --accent-color: #ffc107;
+    --link-hover-color: #e9ff41;
+    --text-color: #333;
+    --background-color: #ffffff;
+    --background-color-bl: #000000;
+    --button-hover-color: #005a87;
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Open Sans", sans-serif; */
+}
+
+html {
+    scroll-behavior: smooth;
+} 
+
+/* === Typografi === */
+body {
+    font-family: var(--font-primary);
+    line-height: 1.5;
+    color: var(--text-color);
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+
+p {
+    font-weight: 600;
+    font-family: var(--font-secondary) ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-primary);
+    letter-spacing: 1.5px
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+    }
+
+    h5 {
+        font-size: 1.125rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+}
+
+/* === Layout === */
+
+/* Archive product  */
+.content-area {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+
+
+
+nav a:hover {
+    color: #e9ff41;
+
+}
+
+
+/* === Formulär (Contact Form 7) === */
+input.wpcf7-form-control.wpcf7-text,
+input.wpcf7-form-control.wpcf7-submit {
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+/* === WooCommerce Produkter === */
+
+.woocommerce-archive-content {
+    background: white;
+}
+
+ul.products {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.woocommerce ul.products li.product img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+.woocommerce ul.products li.product .button {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+}
+
+.woocommerce ul.products li.product a {
+    text-decoration: none;
+    text-align: center;
+}
