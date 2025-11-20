@@ -3,7 +3,7 @@ Theme Name: AA
 Theme URI: https://example.com/aa-rentals
 Author: Alan Weik
 Author URI: https://example.com
-Description: Ett minimalistiskt och responsivt WordPress-tema för hudvårdsbutiker online.
+Description: Ett minimalistiskt och responsivt WordPress-tema för uthyrningstjänster online.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -181,7 +181,22 @@ input.wpcf7-form-control.wpcf7-submit {
 /* === WooCommerce Produkter === */
 
 .woocommerce-archive-content {
-    background: white;
+    background: white !important;
+    color: black !important;
+}
+
+.woocommerce .woocommerce-ordering select {
+    appearance: none; /* Ta bort standardutseendet för bättre kontroll */
+    border: none; /* Ta bort gränsen för ett renare utseende */
+    padding: 0.5em 1em; /* Justerat för att ge lite luft runt texten */
+    height: auto; /* Låt höjden vara dynamisk baserat på innehållet */
+    font-size: 1rem; /* Gör fontstorleken något större för bättre läsbarhet */
+    border-radius: 4px; /* Lägger till en mild rundning för en modern känsla */
+    width: 100%; /* Gör så att det fyller sin förälder */
+    background-color: #f7f7f7; /* Lägger till en ljus bakgrundsfärg */
+    color: #333; /* Mer neutral textfärg */
+    box-shadow: none; /* Ta bort skugga för ett mer minimalistiskt utseende */
+    cursor: pointer; /* Gör det tydligt att det är interaktivt */
 }
 
 ul.products {
@@ -195,6 +210,36 @@ ul.products {
     object-fit: contain;
 }
 
+h2.woocommerce-loop-product__title {
+    color: black;
+    font-size: 1.2em !important;
+}
+
+.woocommerce ul.products li.product .price {
+    display: block;
+    color: black;
+    font-weight: 600;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.price {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    display: none;
+}
+
+.woocommerce-tabs.wc-tabs-wrapper {
+    text-align: center;
+}
+
+.product_meta {
+    display: none;
+}
+
 .woocommerce ul.products li.product .button {
     background-color: var(--primary-color);
     color: black;
@@ -203,9 +248,131 @@ ul.products {
     padding: 15px 25px;
     letter-spacing: 1px;
     border: 2px solid black;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+
+}
+
+.woocommerce ul.products li.product .button:hover {
+    background-color: #c0d636 !important;   /* lite mörkare lime */
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 25px rgba(233, 255, 65, 0.3) !important;
 }
 
 .woocommerce ul.products li.product a {
-    text-decoration: none;
     text-align: center;
+}
+
+
+.aa-button {
+    color: #e9ff41 !important;
+    border-radius: 3px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    background-color: transparent !important;
+    border: 2px solid #e9ff41 !important;
+
+}
+
+.aa-button:hover {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(233, 255, 65, 0.15) !important;
+}
+
+
+
+/* === WooCommerce Enkel Produkt === */
+
+h1.product_title.entry-title {
+    margin-bottom: 0;
+}
+
+.woocommerce div.product .summary .price {
+    color: black !important;
+    font-size: 2em !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* === form === */
+
+
+.woocommerce .entry-summary {
+
+}
+
+.woocommerce div.product .summary .cart .button {
+    background-color: var(--primary-color) !important;
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    padding: 7px 15px !important;
+    letter-spacing: 1px !important;
+    border: 2px solid black !important;
+        text-transform: uppercase !important;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+}
+
+.woocommerce form .form-row {
+    padding: 0px;
+    margin: 0 0 5px;
+}
+
+/* Grundläggande styling */
+.woocommerce div.product form.cart {
+    padding: 20px;
+    background-color: #fff; /* Håll bakgrunden vit för minimalistisk känsla */
+    border-radius: 8px; /* Runda hörn för en modern look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+/* För inmatningsfält och mängdjustering */
+div.product form.cart input[type="number"], input[type="text"] {
+    border: 1px solid black; /* Ljus grå kant */
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Justering av etiketter för bättre läsbarhet */
+div.product form.cart label {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/* Justera storlek på produktantal om du använder */
+div.product form.cart .quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+
+/* Responsiv design */
+@media screen and (max-width: 768px) {
+    div.product form.cart {
+        padding: 15px;
+    }
+
+    div.product form.cart .single_add_to_cart_button {
+        width: 100%; /* Gör knappen fullbredd på mobiler */
+    }
+}
+
+.woocommerce-single-content {
+    background: white !important;
+    color: black !important;
+       
 }

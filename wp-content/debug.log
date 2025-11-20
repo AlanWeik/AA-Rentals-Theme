@@ -1,0 +1,24 @@
+[19-Nov-2025 20:09:36 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[19-Nov-2025 20:09:36 UTC] PHP Stack trace:
+[19-Nov-2025 20:09:36 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[19-Nov-2025 20:09:36 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[19-Nov-2025 20:09:36 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:20
+[19-Nov-2025 20:09:36 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:35
+[19-Nov-2025 20:09:36 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['config' => [...], 'arguments' => [...], 'assoc_args' => [...], 'context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:84
+[19-Nov-2025 20:09:36 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[19-Nov-2025 20:09:36 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1293
+[19-Nov-2025 20:09:36 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1374
+[19-Nov-2025 20:09:36 UTC] PHP   9. require_wp_db() /Users/alanweik/Local Sites/aa/app/public/wp-settings.php:134
+[19-Nov-2025 20:09:36 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = '[Sensitive Parameter]', $dbname = 'local', $dbhost = 'localhost') /Users/alanweik/Local Sites/aa/app/public/wp-includes/load.php:720
+[19-Nov-2025 20:09:36 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php:773
+[19-Nov-2025 20:09:36 UTC] PHP  12. mysqli_real_connect($mysql = class mysqli { public $client_info = 'mysqlnd 8.2.27'; public $client_version = 80227; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory' }, $hostname = 'localhost', $username = 'root', $password = '[Sensitive Parameter]', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php:1988
+[19-Nov-2025 20:22:54 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[19-Nov-2025 20:27:16 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[19-Nov-2025 20:27:16 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[19-Nov-2025 20:45:25 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/alanweik/Local Sites/aa/app/public/wp-content/themes/AA/woocommerce/single-product.php on line 30
+[19-Nov-2025 20:48:34 UTC] PHP Deprecated:  Function get_page_by_title is <strong>deprecated</strong> since version 6.2.0! Use WP_Query instead. in /Users/alanweik/Local Sites/aa/app/public/wp-includes/functions.php on line 6121
+[19-Nov-2025 20:54:48 UTC] PHP Deprecated:  Function get_page_by_title is <strong>deprecated</strong> since version 6.2.0! Use WP_Query instead. in /Users/alanweik/Local Sites/aa/app/public/wp-includes/functions.php on line 6121
+[19-Nov-2025 20:56:10 UTC] PHP Deprecated:  Function get_page_by_title is <strong>deprecated</strong> since version 6.2.0! Use WP_Query instead. in /Users/alanweik/Local Sites/aa/app/public/wp-includes/functions.php on line 6121
+[19-Nov-2025 21:26:46 UTC] Automatic updates starting...
+[19-Nov-2025 21:26:47 UTC] Automatic updates complete.
+[19-Nov-2025 23:56:03 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/alanweik/Local Sites/aa/app/public/wp-content/themes/AA/woocommerce/single-product.php on line 102
