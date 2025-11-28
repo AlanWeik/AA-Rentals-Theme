@@ -79,3 +79,98 @@ function mytheme_kadence_global_colors( $global_colors ) {
     return $global_colors;
 }
 add_filter( 'kadence_blocks_pattern_global_colors', 'mytheme_kadence_global_colors' );
+
+function remove_woocommerce_short_description() {
+    remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+}
+add_action( 'template_redirect', 'remove_woocommerce_short_description' );
+
+
+// ==== BOKNINGSSTATUSAR FÖR WOOCOMMERCE ====
+// 1) Registrera custom-statusar
+add_action('init', function () {
+    register_post_status('wc-confirmed', [
+        'label'                     => 'Bekräftad',
+        'public'                    => true,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop('Bekräftad (%s)', 'Bekräftad (%s)')
+    ]);
+    register_post_status('wc-awaiting-payment', [
+        'label'                     => 'Inväntar betalning',
+        'public'                    => true,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop('Inväntar betalning (%s)', 'Inväntar betalning (%s)')
+    ]);
+    register_post_status('wc-on-rent', [
+        'label'                     => 'Ute hos kund',
+        'public'                    => true,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop('Ute hos kund (%s)', 'Ute hos kund (%s)')
+    ]);
+});
+
+// 2) Visa dem i listan + bestäm ordning och byt etiketter på standardstatusar
+add_filter('wc_order_statuses', function ($st) {
+    // Döp om befintliga
+    if (isset($st['wc-on-hold']))    $st['wc-on-hold']    = 'Inväntar bekräftelse';
+    if (isset($st['wc-processing'])) $st['wc-processing'] = 'Betald';
+    if (isset($st['wc-completed']))  $st['wc-completed']  = 'Återlämnad / Avslutad';
+
+    // Bygg ny ordning: on-hold -> confirmed -> awaiting-payment -> processing -> on-rent -> completed
+    $ordered = [];
+    foreach ($st as $key => $label) {
+        $ordered[$key] = $label;
+        if ($key === 'wc-on-hold') {
+            $ordered['wc-confirmed']        = 'Bekräftad';
+            $ordered['wc-awaiting-payment'] = 'Inväntar betalning';
+        }
+        if ($key === 'wc-processing') {
+            $ordered['wc-on-rent']          = 'Ute hos kund';
+        }
+    }
+    // Fallback om nycklar saknas
+    $ordered += array_diff_key(
+        ['wc-confirmed'=>'Bekräftad','wc-awaiting-payment'=>'Inväntar betalning','wc-on-rent'=>'Ute hos kund'],
+        $ordered
+    );
+    return $ordered;
+});
+
+// Kortare helper
+function aa_add_customer_note($order, $msg){
+    if ($order instanceof WC_Order) {
+        $order->add_order_note(wp_kses_post($msg), true); // true = skicka till kund
+    }
+}
+
+// Skicka automatiska meddelanden vid statusbyte
+add_action('woocommerce_order_status_changed', function($order_id, $from, $to, $order){
+    if (!$order) return;
+
+    switch ($to) {
+        case 'confirmed': // Bekräftad
+            aa_add_customer_note($order,
+                "Din bokning är <strong>bekräftad</strong> 🎉<br>Vi återkommer om leverans/upphämtning. Spara detta mail.");
+            break;
+
+        case 'awaiting-payment': // Inväntar betalning
+            aa_add_customer_note($order,
+                "Din bokning är bekräftad. <strong>Inväntar betalning</strong>.<br>Betala via Swish 123-456 78 90 (märk ordernr), eller enligt överenskommelse.");
+            break;
+
+        case 'on-rent': // Ute hos kund
+            aa_add_customer_note($order,
+                "Utrustningen är nu <strong>ute hos er</strong>. Vid frågor/support – svara på detta mail eller ring oss.");
+            break;
+    }
+}, 10, 4);
+
+add_action('woocommerce_thankyou_cod', function($order_id){
+    if ($order = wc_get_order($order_id)) {
+        $order->update_status('on-hold','Bokningsförfrågan mottagen – inväntar bekräftelse.');
+    }
+});
+

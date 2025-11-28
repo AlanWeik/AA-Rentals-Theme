@@ -31,8 +31,8 @@ get_header( 'shop' ); ?>
 			?>
 			
 			<div class="product-hero" style="
-				height: 60vh;
-				background-image: url('<?php echo esc_url( $image_url ); ?>');
+				min-height: 40vh;
+				
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -55,17 +55,20 @@ get_header( 'shop' ); ?>
 					text-align: center;
 					color: white;
 					padding: 2rem;
+					width: 60%;
 				">
 					<h1 style="
-						font-size: 3rem;
-						margin-bottom: 1rem;
+					    text-transform: uppercase;
+						margin: 0;
 						text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 					"><?php echo esc_html( $product->get_name() ); ?></h1>
 					<div style="
-						font-size: 2rem;
+						font-size: 1rem;
 						font-weight: bold;
 						text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-					"><?php echo $product->get_price_html(); ?></div>
+					">
+						<?php echo wp_kses_post( $product->get_short_description() ); ?> 
+					</div>
 				</div>
 			</div>
 

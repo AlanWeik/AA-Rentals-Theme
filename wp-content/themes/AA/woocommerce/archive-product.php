@@ -13,6 +13,68 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 
+// Hero för produktkategorier – samma styling som single product hero
+if ( is_product_category() ) :
+
+    $term         = get_queried_object();
+    $thumbnail_id = get_term_meta( $term->term_id, 'thumbnail_id', true );
+    $image_url    = $thumbnail_id ? wp_get_attachment_image_url( $thumbnail_id, 'full' ) : '';
+
+    ?>
+    <div class="product-hero" style="
+        min-height: 40vh;
+        /* <?php if ( $image_url ) : ?>
+        background-image: url('<?php echo esc_url( $image_url ); ?>');
+        <?php endif; ?> */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    ">
+        <div style="
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        "></div>
+        <div style="
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            width: 60%;
+        ">
+            <h1 style="
+			    text-transform: uppercase;
+                margin: 0;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            ">
+                <?php single_term_title(); ?>
+            </h1>
+            <div style="
+                font-size: 1rem;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            ">
+                <?php
+                $description = term_description();
+                if ( ! empty( $description ) ) {
+                    echo wp_kses_post( wpautop( $description ) );
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+    <?php
+endif;	
+
+
 /**
  * Visa innehållet från butikssidan ("Shop") innan produktloopen,
  * men bara på själva butiksarkivet – inte på kategorier, etiketter osv.

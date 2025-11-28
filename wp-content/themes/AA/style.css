@@ -12,47 +12,59 @@ Text Domain: AA
 
 /* === Färger och variabler === */
 :root {
-   
+
     /* Huvudfärger */
-    --primary-color:       #e9ff41;    /* Din befintliga lime/neongröna – perfekt som primary/accent */
-    --primary-dark:        #c0d636;    /* Mörkare variant för hover, active etc */
-    --primary-light:       #f2ff9e;    /* Väldigt ljus variant för subtila bakgrunder */
+    --primary-color: #e9ff41;
+    /* Din befintliga lime/neongröna – perfekt som primary/accent */
+    --primary-dark: #c0d636;
+    /* Mörkare variant för hover, active etc */
+    --primary-light: #f2ff9e;
+    /* Väldigt ljus variant för subtila bakgrunder */
 
     /* Neutrala basfärger */
-    --background-color:    #000000;    /* Ren svart */
-    --background-alt:      #0a0a0a;    /* Nästan svart – bra för lite djup */
-    --background-alt-2:    #111111;    /* För kort, sektioner etc */
-    --background-alt-3:    #1a1a1a;    /* Lite ljusare gråsvart */
+    --background-color: #000000;
+    /* Ren svart */
+    --background-alt: #0a0a0a;
+    /* Nästan svart – bra för lite djup */
+    --background-alt-2: #111111;
+    /* För kort, sektioner etc */
+    --background-alt-3: #1a1a1a;
+    /* Lite ljusare gråsvart */
 
     /* Textfärger */
-    --text-color:          #ffffff;    /* Vit text */
-    --text-color-muted:    #aaaaaa;    /* Ljusgrå för secondary text */
-    --text-color-light:    #cccccc;    /* Mellanläge */
+    --text-color: #ffffff;
+    /* Vit text */
+    --text-color-muted: #aaaaaa;
+    /* Ljusgrå för secondary text */
+    --text-color-light: #cccccc;
+    /* Mellanläge */
 
     /* Accent & interaktion */
-    --accent-color:        #e9ff41;
-    --accent-hover:        #c0d636;
-    --link-color:          #e9ff41;
-    --link-hover-color:    #ffffff;    /* Vit vid hover för extra kontrast */
+    --accent-color: #e9ff41;
+    --accent-hover: #c0d636;
+    --link-color: #e9ff41;
+    --link-hover-color: #ffffff;
+    /* Vit vid hover för extra kontrast */
 
     /* Knappar (transparent + outline) */
-    --button-border:       #e9ff41;
+    --button-border: #e9ff41;
     --button-border-hover: #ffffff;
-    --button-text-hover:   #000000;
-    --button-bg-hover:     #e9ff41;     /* Filled vid hover om du vill */
+    --button-text-hover: #000000;
+    --button-bg-hover: #e9ff41;
+    /* Filled vid hover om du vill */
 
     /* Övrigt */
-    --success-color:       #4caf50;
-    --warning-color:       #ff9800;
-    --error-color:         #f44336;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --error-color: #f44336;
 
     /* Typsnitt (valfritt) */
     /* --font-primary:        "Inter", "Space Grotesk", system-ui, sans-serif;
     --font-mono:           "JetBrains Mono", "Fira Code", monospace; */
 
-     --font-primary: "Poppins", sans-serif;
-    --font-secondary: "Open Sans", sans-serif; 
-   
+    --font-primary: "Poppins", sans-serif;
+    --font-secondary: "Open Sans", sans-serif;
+
     /* --primary-color: #e29797;
     --secondary-color: #363b3f;
     --accent-color: #ffc107;
@@ -65,9 +77,10 @@ Text Domain: AA
     --font-secondary: "Open Sans", sans-serif; */
 }
 
-html {
+* {
     scroll-behavior: smooth;
-} 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
 /* === Typografi === */
 body {
@@ -82,7 +95,7 @@ body {
 
 p {
     font-weight: 600;
-    font-family: var(--font-secondary) ;
+    font-family: var(--font-secondary);
 }
 
 h1,
@@ -145,6 +158,26 @@ h6 {
     }
 }
 
+/* === Buttons === */
+.aa-button {
+    color: #e9ff41 !important;
+    border-radius: 3px !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    background-color: transparent !important;
+    border: 2px solid #e9ff41 !important;
+
+}
+
+.aa-button:hover {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(233, 255, 65, 0.15) !important;
+}
+
 /* === Layout === */
 
 /* Archive product  */
@@ -153,9 +186,6 @@ h6 {
     margin: 0 auto;
     padding-top: 2rem;
 }
-
-
-
 
 nav a:hover {
     color: #e9ff41;
@@ -186,17 +216,26 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 
 .woocommerce .woocommerce-ordering select {
-    appearance: none; /* Ta bort standardutseendet för bättre kontroll */
-    border: none; /* Ta bort gränsen för ett renare utseende */
-    padding: 0.5em 1em; /* Justerat för att ge lite luft runt texten */
-    height: auto; /* Låt höjden vara dynamisk baserat på innehållet */
-    font-size: 1rem; /* Gör fontstorleken något större för bättre läsbarhet */
-    border-radius: 4px; /* Lägger till en mild rundning för en modern känsla */
-    width: 100%; /* Gör så att det fyller sin förälder */
-    background-color: #f7f7f7; /* Lägger till en ljus bakgrundsfärg */
-    color: #333; /* Mer neutral textfärg */
-    box-shadow: none; /* Ta bort skugga för ett mer minimalistiskt utseende */
-    cursor: pointer; /* Gör det tydligt att det är interaktivt */
+    appearance: none;
+    /* Ta bort standardutseendet för bättre kontroll */
+    border: none;
+    /* Ta bort gränsen för ett renare utseende */
+    padding: 0.5em 1em;
+    /* Justerat för att ge lite luft runt texten */
+    height: auto;
+    /* Låt höjden vara dynamisk baserat på innehållet */
+    border-radius: 4px;
+    /* Lägger till en mild rundning för en modern känsla */
+    width: 100%;
+    /* Gör så att det fyller sin förälder */
+    background-color: #f7f7f7;
+    /* Lägger till en ljus bakgrundsfärg */
+    color: #333;
+    /* Mer neutral textfärg */
+    box-shadow: none;
+    /* Ta bort skugga för ett mer minimalistiskt utseende */
+    cursor: pointer;
+    /* Gör det tydligt att det är interaktivt */
 }
 
 ul.products {
@@ -248,12 +287,13 @@ h2.woocommerce-loop-product__title {
     padding: 15px 25px;
     letter-spacing: 1px;
     border: 2px solid black;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
 
 }
 
 .woocommerce ul.products li.product .button:hover {
-    background-color: #c0d636 !important;   /* lite mörkare lime */
+    background-color: #c0d636 !important;
+    /* lite mörkare lime */
     transform: translateY(-3px) !important;
     box-shadow: 0 10px 25px rgba(233, 255, 65, 0.3) !important;
 }
@@ -262,29 +302,22 @@ h2.woocommerce-loop-product__title {
     text-align: center;
 }
 
+/* === WooCommerce Single Product === */
 
-.aa-button {
-    color: #e9ff41 !important;
-    border-radius: 3px !important;
-    font-size: 18px !important;
-    font-weight: bold !important;
-    letter-spacing: 1px !important;
-    text-transform: uppercase !important;
-    background-color: transparent !important;
-    border: 2px solid #e9ff41 !important;
+/* Single product bild storlek */
+.woocommerce div.product div.images img {
+    max-width: 530.0px;
+    max-height: 530px;
+    object-fit: contain;
+    margin: 0 auto;
 
 }
 
-.aa-button:hover {
-    color: #ffffff !important;
-    border-color: #ffffff !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 25px rgba(233, 255, 65, 0.15) !important;
+/* Background och text färg */
+.woocommerce-single-content {
+    background: white !important;
+    color: black !important;
 }
-
-
-
-/* === WooCommerce Enkel Produkt === */
 
 h1.product_title.entry-title {
     margin-bottom: 0;
@@ -298,11 +331,11 @@ h1.product_title.entry-title {
     padding: 0 !important;
 }
 
-/* === form === */
-
-
-.woocommerce .entry-summary {
-
+.summary.entry-summary {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .woocommerce div.product .summary .cart .button {
@@ -313,9 +346,10 @@ h1.product_title.entry-title {
     padding: 7px 15px !important;
     letter-spacing: 1px !important;
     border: 2px solid black !important;
-        text-transform: uppercase !important;
-
+    text-transform: uppercase !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+    height: 45px;
+
 }
 
 .woocommerce form .form-row {
@@ -325,26 +359,57 @@ h1.product_title.entry-title {
 
 /* Grundläggande styling */
 .woocommerce div.product form.cart {
-    padding: 20px;
-    background-color: #fff; /* Håll bakgrunden vit för minimalistisk känsla */
-    border-radius: 8px; /* Runda hörn för en modern look */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Lätt skugga för djup */
+    /* padding: 20px; */
+    background-color: #fff;
+    /* Håll bakgrunden vit för minimalistisk känsla */
+    /* border-radius: 8px; */
+    /* Runda hörn för en modern look */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* Lätt skugga för djup */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 0;
+
 }
-
-
 
 
 /* För inmatningsfält och mängdjustering */
-div.product form.cart input[type="number"], input[type="text"] {
-    border: 1px solid black; /* Ljus grå kant */
+div.product form.cart input[type="number"],
+input[type="text"] {
+    border: 1px solid black;
+    /* Ljus grå kant */
     padding: 10px;
     border-radius: 4px;
     font-size: 16px;
-    margin: 10px 0;
+
 }
+
+input[type="text"] {
+    width: 100%;
+    /* Gör fälten responsiva och fyll hela containerbredden */
+    max-width: 100%;
+    /* Förhindra att de blir för breda */
+    box-sizing: border-box;
+    /* Se till att padding inte ökar bredden */
+}
+
+/* Padding för clear knappen  */
+.form-row.form-row-wide.show_if_two_dates {
+    padding-bottom: 20px;
+}
+
+/* Clear dates knappen  */
+a.reset_dates {
+    /* border: 1px solid black; */
+    padding: 7px;
+    border-radius: 4px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
 
 /* Justering av etiketter för bättre läsbarhet */
 div.product form.cart label {
@@ -353,7 +418,7 @@ div.product form.cart label {
     margin-bottom: 0px;
 }
 
-/* Justera storlek på produktantal om du använder */
+/* Justera storlek på produktantal */
 div.product form.cart .quantity {
     display: flex;
     align-items: center;
@@ -367,12 +432,61 @@ div.product form.cart .quantity {
     }
 
     div.product form.cart .single_add_to_cart_button {
-        width: 100%; /* Gör knappen fullbredd på mobiler */
+        width: 100%;
+        /* Gör knappen fullbredd på mobiler */
     }
 }
 
-.woocommerce-single-content {
-    background: white !important;
-    color: black !important;
-       
+
+/* Woocommerce checkout  */
+
+.wc-block-cart__submit-container {
+    border: 1px solid black;
+    border-radius: 3px;
 }
+
+a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+    border: 1px solid black !important;
+    padding: 7px 12px !important;
+    cursor: pointer !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+}
+
+
+/* ==== Woocommerce Cart  ===== */
+
+.wc-block-components-sidebar-layout.wc-block-cart {
+    background: white;
+    color: black;
+    margin-top: 8vh;
+    padding: 5vh 5vw !important;
+}
+
+/* Checkout  */
+.wc-block-components-sidebar-layout {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    position: relative;
+    max-width: 80vw;
+    padding: 5vh 5vh;
+
+    
+    /* background: white; */
+    /* color: black; */
+}
+
+
+/* NAMN PÅ CHATTAR:
+
+
+WooCommerce produktkategori sida AW
+Seo vänlig sida
+*/
