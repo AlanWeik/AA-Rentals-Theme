@@ -478,9 +478,21 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
     max-width: 80vw;
     padding: 5vh 5vh;
 
-    
+
     /* background: white; */
     /* color: black; */
+}
+
+
+
+/* =========== Startsida  ======== */
+
+/* Kategorikort */
+.category-card:hover>div {
+    transform: translateY(-2px);
+    background-color: #1c1c1c;
+    cursor: pointer;
+    /* border: 1px solid #e9ff41; */
 }
 
 
