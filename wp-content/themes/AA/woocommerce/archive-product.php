@@ -22,10 +22,10 @@ if ( is_product_category() ) :
 
     ?>
     <div class="product-hero" style="
-        min-height: 40vh;
-        /* <?php if ( $image_url ) : ?>
+        min-height: 30vh;
+        <?php if ( $image_url ) : ?>
         background-image: url('<?php echo esc_url( $image_url ); ?>');
-        <?php endif; ?> */
+        <?php endif; ?>
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

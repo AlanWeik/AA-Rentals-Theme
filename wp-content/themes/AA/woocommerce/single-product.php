@@ -31,8 +31,10 @@ get_header( 'shop' ); ?>
 			?>
 			
 			<div class="product-hero" style="
-				min-height: 40vh;
-				
+				min-height: 30vh;
+				  <?php if ( $image_url ) : ?>
+        background-image: url('<?php echo esc_url( $image_url ); ?>');
+        <?php endif; ?>
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -67,7 +69,9 @@ get_header( 'shop' ); ?>
 						font-weight: bold;
 						text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 					">
-						<?php echo wp_kses_post( $product->get_short_description() ); ?> 
+						<p style="margin: 0; padding: 0;">
+    <?php echo strip_tags( $product->get_short_description() ); ?> 
+</p>
 					</div>
 				</div>
 			</div>

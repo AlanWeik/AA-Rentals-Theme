@@ -64,6 +64,7 @@ Text Domain: AA
 
     --font-primary: "Poppins", sans-serif;
     --font-secondary: "Open Sans", sans-serif;
+    --font-new: "Manrope", sans-serif;
 
     /* --primary-color: #e29797;
     --secondary-color: #363b3f;
@@ -80,6 +81,7 @@ Text Domain: AA
 * {
     scroll-behavior: smooth;
     transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
 }
 
 /* === Typografi === */
@@ -96,6 +98,7 @@ body {
 p {
     font-weight: 600;
     font-family: var(--font-secondary);
+    margin: 0;
 }
 
 h1,
@@ -490,15 +493,21 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
 /* Kategorikort */
 .category-card:hover>div {
     transform: translateY(-2px);
-    background-color: #1c1c1c;
+    background-color: #1c1c1cb9;
     cursor: pointer;
-    /* border: 1px solid #e9ff41; */
+    /* box-shadow: 0 8px 25px rgba(255, 255, 255, 0.472) !important; */
+    outline: 2px solid #ffffffcf; 
+    /* outline: 1px solid var(--accent-hover);  */
+    border-radius: 8px;
+    box-sizing: border-box!important;
+}
+
+.shop-h1{
+        margin: 0;
 }
 
 
 /* NAMN PÅ CHATTAR:
-
-
 WooCommerce produktkategori sida AW
 Seo vänlig sida
 */

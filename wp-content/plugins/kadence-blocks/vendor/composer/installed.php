@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'kadencewp/kadence-blocks',
-        'pretty_version' => '3.5.27',
-        'version' => '3.5.27.0',
-        'reference' => '6de882e08a868968a2693ec66969515094f2cfb5',
+        'pretty_version' => '3.5.29',
+        'version' => '3.5.29.0',
+        'reference' => '4f8cf7b0f9276f04feebd7cf839213f925e142ef',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'enshrined/svg-sanitize' => array(
-            'pretty_version' => '0.21.0',
-            'version' => '0.21.0.0',
-            'reference' => '5e477468fac5c5ce933dce53af3e8e4e58dcccc9',
+            'pretty_version' => '0.22.0',
+            'version' => '0.22.0.0',
+            'reference' => '0afa95ea74be155a7bcd6c6fb60c276c39984500',
             'type' => 'library',
             'install_path' => __DIR__ . '/../enshrined/svg-sanitize',
             'aliases' => array(),
@@ -47,9 +47,9 @@
             'dev_requirement' => false,
         ),
         'kadencewp/kadence-blocks' => array(
-            'pretty_version' => '3.5.27',
-            'version' => '3.5.27.0',
-            'reference' => '6de882e08a868968a2693ec66969515094f2cfb5',
+            'pretty_version' => '3.5.29',
+            'version' => '3.5.29.0',
+            'reference' => '4f8cf7b0f9276f04feebd7cf839213f925e142ef',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

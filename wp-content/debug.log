@@ -154,3 +154,922 @@
 [01-Dec-2025 07:55:04 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::register_resource(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 422
 [01-Dec-2025 09:26:58 UTC] Automatic updates starting...
 [01-Dec-2025 09:26:58 UTC] Automatic updates complete.
+[01-Dec-2025 16:48:17 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Pipeline\Pipeline::__construct(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Pipeline/Pipeline.php on line 57
+[01-Dec-2025 16:48:17 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Plugin::register(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Plugin.php on line 177
+[01-Dec-2025 16:48:17 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::__construct(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 133
+[01-Dec-2025 16:48:17 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::register(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 405
+[01-Dec-2025 16:48:17 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::register_resource(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 422
+[01-Dec-2025 16:48:37 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Pipeline\Pipeline::__construct(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Pipeline/Pipeline.php on line 57
+[01-Dec-2025 16:48:37 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Plugin::register(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Plugin.php on line 177
+[01-Dec-2025 16:48:37 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::__construct(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 133
+[01-Dec-2025 16:48:37 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::register(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 405
+[01-Dec-2025 16:48:37 UTC] PHP Deprecated:  KadenceWP\KadenceBlocks\StellarWP\Uplink\Resources\Resource::register_resource(): Implicitly marking parameter $license_class as nullable is deprecated, the explicit nullable type must be used instead in /Users/alanweik/Local Sites/aa/app/public/wp-content/plugins/kadence-blocks/vendor/vendor-prefixed/stellarwp/uplink/src/Uplink/Resources/Resource.php on line 422
+[01-Dec-2025 16:49:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[01-Dec-2025 16:49:52 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[01-Dec-2025 17:04:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[01-Dec-2025 23:10:59 UTC] Automatic updates starting...
+[01-Dec-2025 23:10:59 UTC]   Automatic plugin updates starting...
+[01-Dec-2025 23:10:59 UTC]   Automatic plugin updates complete.
+[01-Dec-2025 23:11:00 UTC] Automatic updates complete.
+[02-Dec-2025 21:07:26 UTC] Automatic updates starting...
+[02-Dec-2025 21:07:27 UTC]   Automatic plugin updates starting...
+[02-Dec-2025 21:07:27 UTC]   Automatic plugin updates complete.
+[02-Dec-2025 21:07:27 UTC] Automatic updates complete.
+[02-Dec-2025 21:16:13 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[02-Dec-2025 21:18:05 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Dec-2025 21:18:32 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Dec-2025 21:19:27 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Dec-2025 21:20:27 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Dec-2025 21:23:22 UTC] [02/Dec/2025:21:23:22 +0000] [0;37mDEBUG[0m: Writing cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:23:24 UTC] [02/Dec/2025:21:23:24 +0000] [0;37mDEBUG[0m: Writing cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:24:12 UTC] [02/Dec/2025:21:24:12 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:24:12 UTC] [02/Dec/2025:21:24:12 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:24:12 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[02-Dec-2025 21:26:45 UTC] Automatic updates starting...
+[02-Dec-2025 21:26:45 UTC]   Automatic plugin updates starting...
+[02-Dec-2025 21:26:45 UTC]   Automatic plugin updates complete.
+[02-Dec-2025 21:26:45 UTC] Automatic updates complete.
+[02-Dec-2025 21:27:41 UTC] [02/Dec/2025:21:27:41 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:27:41 UTC] [02/Dec/2025:21:27:41 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:27:42 UTC] [02/Dec/2025:21:27:42 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:27:42 UTC] [02/Dec/2025:21:27:42 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:40:06 UTC] [02/Dec/2025:21:40:06 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:40:06 UTC] [02/Dec/2025:21:40:06 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:40:15 UTC] [02/Dec/2025:21:40:15 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:40:15 UTC] [02/Dec/2025:21:40:15 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:41:13 UTC] [02/Dec/2025:21:41:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:41:13 UTC] [02/Dec/2025:21:41:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:41:35 UTC] [02/Dec/2025:21:41:35 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:41:35 UTC] [02/Dec/2025:21:41:35 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:43:38 UTC] [02/Dec/2025:21:43:38 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:43:38 UTC] [02/Dec/2025:21:43:38 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:46:03 UTC] [02/Dec/2025:21:46:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:46:03 UTC] [02/Dec/2025:21:46:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:46:10 UTC] [02/Dec/2025:21:46:10 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:46:10 UTC] [02/Dec/2025:21:46:10 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 21:46:30 UTC] [02/Dec/2025:21:46:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[02-Dec-2025 21:46:30 UTC] [02/Dec/2025:21:46:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[02-Dec-2025 22:55:01 UTC] Automatic updates starting...
+[02-Dec-2025 22:55:01 UTC]   Automatic plugin updates starting...
+[02-Dec-2025 22:55:01 UTC]   Automatic plugin updates complete.
+[02-Dec-2025 22:55:01 UTC] Automatic updates complete.
+[03-Dec-2025 00:03:11 UTC] Automatic updates starting...
+[03-Dec-2025 00:03:11 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 00:03:11 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 00:03:11 UTC] Automatic updates complete.
+[03-Dec-2025 05:39:00 UTC] Automatic updates starting...
+[03-Dec-2025 05:39:01 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 05:39:01 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 05:39:01 UTC] Automatic updates complete.
+[03-Dec-2025 07:02:23 UTC] Automatic updates starting...
+[03-Dec-2025 07:02:23 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 07:02:23 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 07:02:23 UTC] Automatic updates complete.
+[03-Dec-2025 08:03:39 UTC] Automatic updates starting...
+[03-Dec-2025 08:03:39 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 08:03:39 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 08:03:39 UTC] Automatic updates complete.
+[03-Dec-2025 09:04:09 UTC] Automatic updates starting...
+[03-Dec-2025 09:04:09 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 09:04:09 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 09:04:09 UTC] Automatic updates complete.
+[03-Dec-2025 09:28:21 UTC] Automatic updates starting...
+[03-Dec-2025 09:28:21 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 09:28:21 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 09:28:21 UTC] Automatic updates complete.
+[03-Dec-2025 10:28:51 UTC] Automatic updates starting...
+[03-Dec-2025 10:28:51 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 10:28:51 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 10:28:51 UTC] Automatic updates complete.
+[03-Dec-2025 11:29:21 UTC] Automatic updates starting...
+[03-Dec-2025 11:29:21 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 11:29:21 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 11:29:21 UTC] Automatic updates complete.
+[03-Dec-2025 12:30:56 UTC] Automatic updates starting...
+[03-Dec-2025 12:30:56 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 12:30:56 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 12:30:56 UTC] Automatic updates complete.
+[03-Dec-2025 13:31:26 UTC] Automatic updates starting...
+[03-Dec-2025 13:31:26 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 13:31:26 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 13:31:26 UTC] Automatic updates complete.
+[03-Dec-2025 14:31:56 UTC] Automatic updates starting...
+[03-Dec-2025 14:31:56 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 14:31:56 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 14:31:56 UTC] Automatic updates complete.
+[03-Dec-2025 15:32:26 UTC] Automatic updates starting...
+[03-Dec-2025 15:32:26 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 15:32:26 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 15:32:26 UTC] Automatic updates complete.
+[03-Dec-2025 18:57:01 UTC] Automatic updates starting...
+[03-Dec-2025 18:57:01 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 18:57:01 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 18:57:01 UTC] Automatic updates complete.
+[03-Dec-2025 19:19:18 UTC] [03/Dec/2025:19:19:18 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:19:18 UTC] [03/Dec/2025:19:19:18 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:19:29 UTC] [03/Dec/2025:19:19:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:19:29 UTC] [03/Dec/2025:19:19:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:19:34 UTC] [03/Dec/2025:19:19:34 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:19:34 UTC] [03/Dec/2025:19:19:34 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:19:37 UTC] [03/Dec/2025:19:19:37 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:19:37 UTC] [03/Dec/2025:19:19:37 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:19:48 UTC] [03/Dec/2025:19:19:48 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:19:48 UTC] [03/Dec/2025:19:19:48 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:20:04 UTC] [03/Dec/2025:19:20:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:20:04 UTC] [03/Dec/2025:19:20:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:20:07 UTC] [03/Dec/2025:19:20:07 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:20:07 UTC] [03/Dec/2025:19:20:07 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:20:11 UTC] [03/Dec/2025:19:20:11 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:20:11 UTC] [03/Dec/2025:19:20:11 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:20:42 UTC] [03/Dec/2025:19:20:42 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:20:42 UTC] [03/Dec/2025:19:20:42 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:25:54 UTC] [03/Dec/2025:19:25:54 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:25:54 UTC] [03/Dec/2025:19:25:54 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:26:19 UTC] [03/Dec/2025:19:26:19 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:26:19 UTC] [03/Dec/2025:19:26:19 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:26:34 UTC] [03/Dec/2025:19:26:34 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:26:34 UTC] [03/Dec/2025:19:26:34 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:26:53 UTC] [03/Dec/2025:19:26:53 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:26:53 UTC] [03/Dec/2025:19:26:53 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:27:37 UTC] [03/Dec/2025:19:27:37 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:27:37 UTC] [03/Dec/2025:19:27:37 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:27:57 UTC] [03/Dec/2025:19:27:57 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:27:57 UTC] [03/Dec/2025:19:27:57 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:28:13 UTC] [03/Dec/2025:19:28:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:28:13 UTC] [03/Dec/2025:19:28:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:29:14 UTC] [03/Dec/2025:19:29:14 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:29:14 UTC] [03/Dec/2025:19:29:14 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:31:23 UTC] [03/Dec/2025:19:31:23 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:31:23 UTC] [03/Dec/2025:19:31:23 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:32:29 UTC] [03/Dec/2025:19:32:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:32:29 UTC] [03/Dec/2025:19:32:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:34:59 UTC] [03/Dec/2025:19:34:59 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:34:59 UTC] [03/Dec/2025:19:34:59 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:37:43 UTC] [03/Dec/2025:19:37:43 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:37:43 UTC] [03/Dec/2025:19:37:43 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:44:17 UTC] [03/Dec/2025:19:44:17 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:44:17 UTC] [03/Dec/2025:19:44:17 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:57:18 UTC] [03/Dec/2025:19:57:18 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:57:18 UTC] [03/Dec/2025:19:57:18 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:57:33 UTC] [03/Dec/2025:19:57:33 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:57:33 UTC] [03/Dec/2025:19:57:33 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:58:08 UTC] [03/Dec/2025:19:58:08 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:58:08 UTC] [03/Dec/2025:19:58:08 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 19:59:18 UTC] [03/Dec/2025:19:59:18 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 19:59:18 UTC] [03/Dec/2025:19:59:18 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:00:03 UTC] [03/Dec/2025:20:00:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:00:03 UTC] [03/Dec/2025:20:00:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:01:05 UTC] [03/Dec/2025:20:01:05 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:01:05 UTC] [03/Dec/2025:20:01:05 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:01:14 UTC] [03/Dec/2025:20:01:14 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:01:14 UTC] [03/Dec/2025:20:01:14 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:03:11 UTC] [03/Dec/2025:20:03:11 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:03:11 UTC] [03/Dec/2025:20:03:11 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:03:41 UTC] [03/Dec/2025:20:03:41 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:03:41 UTC] [03/Dec/2025:20:03:41 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:05:28 UTC] [03/Dec/2025:20:05:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:05:28 UTC] [03/Dec/2025:20:05:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:05:59 UTC] [03/Dec/2025:20:05:59 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:05:59 UTC] [03/Dec/2025:20:05:59 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:10:33 UTC] [03/Dec/2025:20:10:33 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:10:33 UTC] [03/Dec/2025:20:10:33 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:11:04 UTC] [03/Dec/2025:20:11:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:11:04 UTC] [03/Dec/2025:20:11:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:11:14 UTC] [03/Dec/2025:20:11:14 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:11:14 UTC] [03/Dec/2025:20:11:14 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:15:27 UTC] [03/Dec/2025:20:15:27 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:15:27 UTC] [03/Dec/2025:20:15:27 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:15:30 UTC] [03/Dec/2025:20:15:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:15:30 UTC] [03/Dec/2025:20:15:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:15:32 UTC] [03/Dec/2025:20:15:32 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:15:32 UTC] [03/Dec/2025:20:15:32 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:15:39 UTC] [03/Dec/2025:20:15:39 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:15:39 UTC] [03/Dec/2025:20:15:39 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:16:04 UTC] [03/Dec/2025:20:16:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:16:04 UTC] [03/Dec/2025:20:16:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:23:14 UTC] [03/Dec/2025:20:23:14 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:23:14 UTC] [03/Dec/2025:20:23:14 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:23:35 UTC] [03/Dec/2025:20:23:35 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:23:35 UTC] [03/Dec/2025:20:23:35 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:23:48 UTC] [03/Dec/2025:20:23:48 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:23:48 UTC] [03/Dec/2025:20:23:48 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:23:50 UTC] [03/Dec/2025:20:23:50 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:23:50 UTC] [03/Dec/2025:20:23:50 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:23:51 UTC] [03/Dec/2025:20:23:51 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:23:51 UTC] [03/Dec/2025:20:23:51 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:24:59 UTC] [03/Dec/2025:20:24:59 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:24:59 UTC] [03/Dec/2025:20:24:59 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:25:11 UTC] [03/Dec/2025:20:25:11 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:25:11 UTC] [03/Dec/2025:20:25:11 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:26:31 UTC] [03/Dec/2025:20:26:31 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:26:31 UTC] [03/Dec/2025:20:26:31 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:26:47 UTC] [03/Dec/2025:20:26:47 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:26:47 UTC] [03/Dec/2025:20:26:47 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:32:32 UTC] [03/Dec/2025:20:32:32 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:32:32 UTC] [03/Dec/2025:20:32:32 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:37:33 UTC] [03/Dec/2025:20:37:33 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:37:33 UTC] [03/Dec/2025:20:37:33 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:37:54 UTC] [03/Dec/2025:20:37:54 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:37:54 UTC] [03/Dec/2025:20:37:54 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:38:10 UTC] [03/Dec/2025:20:38:10 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:38:11 UTC] [03/Dec/2025:20:38:11 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:38:21 UTC] [03/Dec/2025:20:38:21 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:38:21 UTC] [03/Dec/2025:20:38:21 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:41:03 UTC] [03/Dec/2025:20:41:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:41:03 UTC] [03/Dec/2025:20:41:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:42:22 UTC] [03/Dec/2025:20:42:22 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:42:22 UTC] [03/Dec/2025:20:42:22 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:42:23 UTC] [03/Dec/2025:20:42:23 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:42:23 UTC] [03/Dec/2025:20:42:23 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:42:25 UTC] [03/Dec/2025:20:42:25 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:42:25 UTC] [03/Dec/2025:20:42:25 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:42:27 UTC] [03/Dec/2025:20:42:27 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:42:27 UTC] [03/Dec/2025:20:42:27 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:42:28 UTC] [03/Dec/2025:20:42:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:42:28 UTC] [03/Dec/2025:20:42:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:46:39 UTC] [03/Dec/2025:20:46:39 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:46:39 UTC] [03/Dec/2025:20:46:39 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 20:51:09 UTC] [03/Dec/2025:20:51:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 20:51:09 UTC] [03/Dec/2025:20:51:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:10 UTC] [03/Dec/2025:21:01:10 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:10 UTC] [03/Dec/2025:21:01:10 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:12 UTC] [03/Dec/2025:21:01:12 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:12 UTC] [03/Dec/2025:21:01:12 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:13 UTC] [03/Dec/2025:21:01:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:13 UTC] [03/Dec/2025:21:01:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:15 UTC] [03/Dec/2025:21:01:15 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:15 UTC] [03/Dec/2025:21:01:15 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:16 UTC] [03/Dec/2025:21:01:16 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:16 UTC] [03/Dec/2025:21:01:16 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:01:18 UTC] [03/Dec/2025:21:01:18 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:01:18 UTC] [03/Dec/2025:21:01:18 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:02:44 UTC] [03/Dec/2025:21:02:44 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:02:44 UTC] [03/Dec/2025:21:02:44 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:03:57 UTC] [03/Dec/2025:21:03:57 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:03:57 UTC] [03/Dec/2025:21:03:57 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:03:59 UTC] [03/Dec/2025:21:03:59 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:03:59 UTC] [03/Dec/2025:21:03:59 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:04:00 UTC] [03/Dec/2025:21:04:00 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:04:00 UTC] [03/Dec/2025:21:04:00 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:04:02 UTC] [03/Dec/2025:21:04:02 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:04:02 UTC] [03/Dec/2025:21:04:02 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:04:03 UTC] [03/Dec/2025:21:04:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:04:03 UTC] [03/Dec/2025:21:04:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:04:05 UTC] [03/Dec/2025:21:04:05 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:04:05 UTC] [03/Dec/2025:21:04:05 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:06:35 UTC] [03/Dec/2025:21:06:35 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:06:35 UTC] [03/Dec/2025:21:06:35 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:08:41 UTC] [03/Dec/2025:21:08:41 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:08:41 UTC] [03/Dec/2025:21:08:41 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:08:53 UTC] [03/Dec/2025:21:08:53 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:08:53 UTC] [03/Dec/2025:21:08:53 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:09:06 UTC] [03/Dec/2025:21:09:06 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:09:06 UTC] [03/Dec/2025:21:09:06 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:10:04 UTC] [03/Dec/2025:21:10:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:10:04 UTC] [03/Dec/2025:21:10:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:10:06 UTC] [03/Dec/2025:21:10:06 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:10:06 UTC] [03/Dec/2025:21:10:06 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:10:20 UTC] [03/Dec/2025:21:10:20 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:10:20 UTC] [03/Dec/2025:21:10:20 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:12:21 UTC] [03/Dec/2025:21:12:21 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:12:21 UTC] [03/Dec/2025:21:12:21 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:12:26 UTC] [03/Dec/2025:21:12:26 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:12:26 UTC] [03/Dec/2025:21:12:26 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:12:26 UTC] [03/Dec/2025:21:12:26 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:12:26 UTC] [03/Dec/2025:21:12:26 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:12:36 UTC] [03/Dec/2025:21:12:36 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:12:36 UTC] [03/Dec/2025:21:12:36 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:13:57 UTC] [03/Dec/2025:21:13:57 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:13:57 UTC] [03/Dec/2025:21:13:57 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:03 UTC] [03/Dec/2025:21:14:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:03 UTC] [03/Dec/2025:21:14:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:05 UTC] [03/Dec/2025:21:14:05 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:05 UTC] [03/Dec/2025:21:14:05 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:06 UTC] [03/Dec/2025:21:14:06 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:06 UTC] [03/Dec/2025:21:14:06 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:08 UTC] [03/Dec/2025:21:14:08 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:08 UTC] [03/Dec/2025:21:14:08 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:09 UTC] [03/Dec/2025:21:14:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:09 UTC] [03/Dec/2025:21:14:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:14:29 UTC] [03/Dec/2025:21:14:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:14:29 UTC] [03/Dec/2025:21:14:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:15:18 UTC] [03/Dec/2025:21:15:18 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:15:18 UTC] [03/Dec/2025:21:15:18 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:15:29 UTC] [03/Dec/2025:21:15:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:15:29 UTC] [03/Dec/2025:21:15:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:41 UTC] [03/Dec/2025:21:18:41 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:41 UTC] [03/Dec/2025:21:18:41 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:49 UTC] [03/Dec/2025:21:18:49 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:49 UTC] [03/Dec/2025:21:18:49 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:50 UTC] [03/Dec/2025:21:18:50 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:50 UTC] [03/Dec/2025:21:18:50 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:52 UTC] [03/Dec/2025:21:18:52 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:52 UTC] [03/Dec/2025:21:18:52 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:53 UTC] [03/Dec/2025:21:18:53 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:53 UTC] [03/Dec/2025:21:18:53 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:18:55 UTC] [03/Dec/2025:21:18:55 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:18:55 UTC] [03/Dec/2025:21:18:55 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:19:09 UTC] [03/Dec/2025:21:19:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:19:09 UTC] [03/Dec/2025:21:19:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:19:13 UTC] [03/Dec/2025:21:19:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:19:13 UTC] [03/Dec/2025:21:19:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:19:28 UTC] [03/Dec/2025:21:19:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:19:28 UTC] [03/Dec/2025:21:19:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:29 UTC] [03/Dec/2025:21:20:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:29 UTC] [03/Dec/2025:21:20:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:41 UTC] [03/Dec/2025:21:20:41 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:41 UTC] [03/Dec/2025:21:20:41 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:42 UTC] [03/Dec/2025:21:20:42 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:42 UTC] [03/Dec/2025:21:20:42 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:43 UTC] [03/Dec/2025:21:20:43 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:43 UTC] [03/Dec/2025:21:20:43 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:45 UTC] [03/Dec/2025:21:20:45 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:45 UTC] [03/Dec/2025:21:20:45 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:46 UTC] [03/Dec/2025:21:20:46 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:46 UTC] [03/Dec/2025:21:20:46 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:20:47 UTC] [03/Dec/2025:21:20:47 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:20:47 UTC] [03/Dec/2025:21:20:47 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:21:12 UTC] [03/Dec/2025:21:21:12 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:21:12 UTC] [03/Dec/2025:21:21:12 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:24:36 UTC] [03/Dec/2025:21:24:36 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:24:36 UTC] [03/Dec/2025:21:24:36 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:25:08 UTC] [03/Dec/2025:21:25:08 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:25:08 UTC] [03/Dec/2025:21:25:08 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:25:19 UTC] [03/Dec/2025:21:25:19 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:25:19 UTC] [03/Dec/2025:21:25:19 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:25:32 UTC] [03/Dec/2025:21:25:32 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:25:32 UTC] [03/Dec/2025:21:25:32 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:25:37 UTC] [03/Dec/2025:21:25:37 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:25:37 UTC] [03/Dec/2025:21:25:37 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:25:51 UTC] [03/Dec/2025:21:25:51 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:25:51 UTC] [03/Dec/2025:21:25:51 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:26:04 UTC] [03/Dec/2025:21:26:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:26:04 UTC] [03/Dec/2025:21:26:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:26:36 UTC] [03/Dec/2025:21:26:36 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:26:36 UTC] [03/Dec/2025:21:26:36 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:26:39 UTC] Automatic updates starting...
+[03-Dec-2025 21:26:40 UTC]   Automatic plugin updates starting...
+[03-Dec-2025 21:26:40 UTC]   Automatic plugin updates complete.
+[03-Dec-2025 21:26:40 UTC]   Automatic theme updates starting...
+[03-Dec-2025 21:26:40 UTC]   Automatic theme updates complete.
+[03-Dec-2025 21:26:40 UTC] Automatic updates complete.
+[03-Dec-2025 21:28:06 UTC] [03/Dec/2025:21:28:06 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:07 UTC] [03/Dec/2025:21:28:07 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:08 UTC] [03/Dec/2025:21:28:08 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:08 UTC] [03/Dec/2025:21:28:08 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:09 UTC] [03/Dec/2025:21:28:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:09 UTC] [03/Dec/2025:21:28:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:10 UTC] [03/Dec/2025:21:28:10 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:10 UTC] [03/Dec/2025:21:28:10 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:11 UTC] [03/Dec/2025:21:28:11 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:11 UTC] [03/Dec/2025:21:28:11 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:13 UTC] [03/Dec/2025:21:28:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:13 UTC] [03/Dec/2025:21:28:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:28:31 UTC] [03/Dec/2025:21:28:31 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:28:31 UTC] [03/Dec/2025:21:28:31 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:47:02 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[03-Dec-2025 21:48:03 UTC] [03/Dec/2025:21:48:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:03 UTC] [03/Dec/2025:21:48:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:22 UTC] [03/Dec/2025:21:48:22 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:22 UTC] [03/Dec/2025:21:48:22 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:25 UTC] [03/Dec/2025:21:48:25 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:25 UTC] [03/Dec/2025:21:48:25 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:26 UTC] [03/Dec/2025:21:48:26 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:26 UTC] [03/Dec/2025:21:48:26 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:28 UTC] [03/Dec/2025:21:48:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:28 UTC] [03/Dec/2025:21:48:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:30 UTC] [03/Dec/2025:21:48:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:30 UTC] [03/Dec/2025:21:48:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:48:33 UTC] [03/Dec/2025:21:48:33 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:48:33 UTC] [03/Dec/2025:21:48:33 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:49:46 UTC] [03/Dec/2025:21:49:46 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:49:46 UTC] [03/Dec/2025:21:49:46 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:49:59 UTC] [03/Dec/2025:21:49:59 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:49:59 UTC] [03/Dec/2025:21:49:59 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:55:25 UTC] [03/Dec/2025:21:55:25 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:55:25 UTC] [03/Dec/2025:21:55:25 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:55:54 UTC] [03/Dec/2025:21:55:54 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:55:54 UTC] [03/Dec/2025:21:55:54 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:55:56 UTC] [03/Dec/2025:21:55:56 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:55:56 UTC] [03/Dec/2025:21:55:56 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:55:58 UTC] [03/Dec/2025:21:55:58 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:55:58 UTC] [03/Dec/2025:21:55:58 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:00 UTC] [03/Dec/2025:21:56:00 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:00 UTC] [03/Dec/2025:21:56:00 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:02 UTC] [03/Dec/2025:21:56:02 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:02 UTC] [03/Dec/2025:21:56:02 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:03 UTC] [03/Dec/2025:21:56:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:03 UTC] [03/Dec/2025:21:56:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:20 UTC] [03/Dec/2025:21:56:20 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:20 UTC] [03/Dec/2025:21:56:20 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:27 UTC] [03/Dec/2025:21:56:27 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:27 UTC] [03/Dec/2025:21:56:27 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:29 UTC] [03/Dec/2025:21:56:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:29 UTC] [03/Dec/2025:21:56:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:30 UTC] [03/Dec/2025:21:56:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:30 UTC] [03/Dec/2025:21:56:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:32 UTC] [03/Dec/2025:21:56:32 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:32 UTC] [03/Dec/2025:21:56:32 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:34 UTC] [03/Dec/2025:21:56:34 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:34 UTC] [03/Dec/2025:21:56:34 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:56:36 UTC] [03/Dec/2025:21:56:36 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:56:36 UTC] [03/Dec/2025:21:56:36 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:57:02 UTC] [03/Dec/2025:21:57:02 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:57:02 UTC] [03/Dec/2025:21:57:02 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:57:07 UTC] [03/Dec/2025:21:57:07 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:57:07 UTC] [03/Dec/2025:21:57:07 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 21:58:49 UTC] [03/Dec/2025:21:58:49 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 21:58:49 UTC] [03/Dec/2025:21:58:49 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:00:56 UTC] [03/Dec/2025:22:00:56 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:00:56 UTC] [03/Dec/2025:22:00:56 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:06:31 UTC] [03/Dec/2025:22:06:31 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:06:31 UTC] [03/Dec/2025:22:06:31 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:06:53 UTC] [03/Dec/2025:22:06:53 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:06:53 UTC] [03/Dec/2025:22:06:53 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:08:28 UTC] [03/Dec/2025:22:08:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:08:28 UTC] [03/Dec/2025:22:08:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:09:09 UTC] [03/Dec/2025:22:09:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:09:09 UTC] [03/Dec/2025:22:09:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:10:04 UTC] [03/Dec/2025:22:10:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:10:04 UTC] [03/Dec/2025:22:10:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:10:34 UTC] [03/Dec/2025:22:10:34 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:10:34 UTC] [03/Dec/2025:22:10:34 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:15:04 UTC] [03/Dec/2025:22:15:04 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:15:04 UTC] [03/Dec/2025:22:15:04 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:15:05 UTC] [03/Dec/2025:22:15:05 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:15:05 UTC] [03/Dec/2025:22:15:05 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:15:07 UTC] [03/Dec/2025:22:15:07 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:15:07 UTC] [03/Dec/2025:22:15:07 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:15:09 UTC] [03/Dec/2025:22:15:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:15:09 UTC] [03/Dec/2025:22:15:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:15:20 UTC] [03/Dec/2025:22:15:20 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:15:20 UTC] [03/Dec/2025:22:15:20 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:29:02 UTC] [03/Dec/2025:22:29:02 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:29:02 UTC] [03/Dec/2025:22:29:02 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:29:09 UTC] [03/Dec/2025:22:29:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:29:09 UTC] [03/Dec/2025:22:29:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:30:13 UTC] [03/Dec/2025:22:30:13 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:30:13 UTC] [03/Dec/2025:22:30:13 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 22:31:03 UTC] [03/Dec/2025:22:31:03 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 22:31:03 UTC] [03/Dec/2025:22:31:03 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:02:23 UTC] [03/Dec/2025:23:02:23 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:02:23 UTC] [03/Dec/2025:23:02:23 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:03:51 UTC] [03/Dec/2025:23:03:51 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:03:51 UTC] [03/Dec/2025:23:03:51 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:04:00 UTC] [03/Dec/2025:23:04:00 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:04:00 UTC] [03/Dec/2025:23:04:00 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:04:09 UTC] [03/Dec/2025:23:04:09 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:04:09 UTC] [03/Dec/2025:23:04:09 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:04:30 UTC] [03/Dec/2025:23:04:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:04:30 UTC] [03/Dec/2025:23:04:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:04:30 UTC] [03/Dec/2025:23:04:30 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:04:30 UTC] [03/Dec/2025:23:04:30 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[03-Dec-2025 23:04:43 UTC] [03/Dec/2025:23:04:43 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[03-Dec-2025 23:04:43 UTC] [03/Dec/2025:23:04:43 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 12:10:37 UTC] Automatic updates starting...
+[04-Dec-2025 12:10:38 UTC]   Automatic plugin updates starting...
+[04-Dec-2025 12:10:38 UTC]   Automatic plugin updates complete.
+[04-Dec-2025 12:10:38 UTC]   Automatic theme updates starting...
+[04-Dec-2025 12:10:38 UTC]   Automatic theme updates complete.
+[04-Dec-2025 12:10:38 UTC] Automatic updates complete.
+[04-Dec-2025 12:11:43 UTC] [04/Dec/2025:12:11:43 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 12:11:43 UTC] [04/Dec/2025:12:11:43 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 12:12:33 UTC] [04/Dec/2025:12:12:33 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 12:12:33 UTC] [04/Dec/2025:12:12:33 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 12:12:54 UTC] [04/Dec/2025:12:12:54 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 12:12:54 UTC] [04/Dec/2025:12:12:54 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:44:29 UTC] [04/Dec/2025:18:44:29 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:44:29 UTC] [04/Dec/2025:18:44:29 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:44:57 UTC] [04/Dec/2025:18:44:57 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:44:57 UTC] [04/Dec/2025:18:44:57 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:45:14 UTC] [04/Dec/2025:18:45:14 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:45:14 UTC] [04/Dec/2025:18:45:14 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:45:28 UTC] [04/Dec/2025:18:45:28 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:45:28 UTC] [04/Dec/2025:18:45:28 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:45:42 UTC] [04/Dec/2025:18:45:42 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:45:42 UTC] [04/Dec/2025:18:45:42 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:45:56 UTC] [04/Dec/2025:18:45:56 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:45:56 UTC] [04/Dec/2025:18:45:56 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:46:12 UTC] [04/Dec/2025:18:46:12 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:46:12 UTC] [04/Dec/2025:18:46:12 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 18:46:31 UTC] [04/Dec/2025:18:46:31 +0000] [0;37mDEBUG[0m: Found cache file: 44d250cd8dd48abdedd37d683ce0a81c.json  
+
+[04-Dec-2025 18:46:31 UTC] [04/Dec/2025:18:46:31 +0000] [0;37mDEBUG[0m: Found cache file: 9c05935e237ef483f7fe14fb65b0c218.json  
+
+[04-Dec-2025 20:01:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:05:01 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:05:06 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:06:21 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:30:54 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:30:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:30:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/alanweik/Local Sites/aa/app/public/wp-includes/class-wpdb.php on line 1988
+[04-Dec-2025 20:59:15 UTC] [04/Dec/2025:20:59:15 +0000] [1;34mNOTICE[0m: Building requests in batches of 200...  
+
+[04-Dec-2025 20:59:15 UTC] [04/Dec/2025:20:59:15 +0000] [1;32mINFO[0m: Processing remaining responses: 10  
+
+[04-Dec-2025 20:59:16 UTC] [04/Dec/2025:20:59:16 +0000] [0;33mERROR[0m: Cannot match image to size data {"file":"/Users/alanweik/Local Sites/aa/app/public/wp-content/uploads/2025/12/energetic-concert-scene-featuring-a-packed-audience-vibrant-lights-and-a-live-performance-on-stage.-1494665-scaled.jpg","file_max_width":5260,"file_max_height":3507,"requested_width":300,"requested_height":300} 
+
+[04-Dec-2025 21:26:41 UTC] Automatic updates starting...
+[04-Dec-2025 21:26:41 UTC]   Automatic plugin updates starting...
+[04-Dec-2025 21:26:41 UTC]   Automatic plugin updates complete.
+[04-Dec-2025 21:26:42 UTC]   Automatic theme updates starting...
+[04-Dec-2025 21:26:42 UTC]   Automatic theme updates complete.
+[04-Dec-2025 21:26:42 UTC] Automatic updates complete.
