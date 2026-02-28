@@ -224,6 +224,10 @@ nav {
     margin-top: 0;
 }
 
+.glass-box p {
+    margin: 0!important; 
+}
+
 /* === Single Page === */
 
 /* Styling för spec-rutorna på undersidan */
@@ -252,23 +256,6 @@ nav {
     transform: scale(1.02) translateY(-5px);
 }
 
-.price-tag {
-    font-family: var(--font-header) !important;
-    font-size: 2.2rem !important;
-    color: var(--accent-color) !important;
-    display: block;
-    margin-top: 20px;
-    /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
-    padding-bottom: 15px;
-}
-
-.price-tag span {
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    color: var(--primary-color);
-    display: block;
-    letter-spacing: 2px;
-}
 
 /* === FORM === */
 
@@ -281,6 +268,26 @@ nav {
 }
 
 /* === KONTAKT === */
+
+.minimal-info-box-startsida {
+    max-width: 900px !important;
+    /* margin: 0 auto !important; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: rgba(255, 255, 255, 0.02) !important;
+    /* Extremt svag vit toning */
+
+    /* En tunn, halvtransparent vit linje istället för gult */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+
+    /* Ingen färgad shadow - bara en svag svart skugga för djup */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+
+    border-radius: 8px !important;
+    /* Skarpa hörn för teknisk look */
+    padding: 60px !important;
+    transition: border-color 0.4s ease;
+}
 
 .minimal-info-box {
     max-width: 1200px !important;
@@ -307,6 +314,16 @@ nav {
     border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
+
+@media (max-width: 760px) {
+    .minimal-info-box {
+        padding: 30px 15px !important; 
+    }
+     .minimal-info-box-startsida {
+        padding: 30px 15px !important; 
+    }
+}
+
 footer {
 
     & h2,
@@ -320,8 +337,13 @@ footer {
     }
 }
 
-footer a:hover {
-    color: var(--accent-color);
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+a:hover {
+    color: var(--accent-color) !important;
 }
 
 .icon:hover {
@@ -330,14 +352,13 @@ footer a:hover {
     cursor: pointer;
 }
 
-.taglines h3 {
-    
-}
 
 .taglines h3:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
+
+
 
 /* En liten gul "markör" i toppen som visar att sektionen är viktig */
 /* .minimal-info-box::before {
