@@ -1,0 +1,2 @@
+Required plugins:
+- Kadence Blocks
