@@ -1,0 +1,356 @@
+/*
+Theme Name: Pressplay
+Author: Pressplay AB 
+Description: Ett minimalistiskt och responsivt WordPress-tema för uthyrningstjänster online.
+Version: 1.2
+*/
+
+
+/* === Global fix för Gutenberg-rubriker i editorn === */
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.wp-block-heading {
+    font-family: var(--font-header) !important;
+}
+
+/* === Färger och variabler === */
+:root {
+    /* Huvudfärger */
+    --primary-color: #e9ff41;
+    /* Lime/Neon */
+    --primary-dark: #c0d636;
+    --primary-light: #f2ff9e;
+
+    /* Neutrala basfärger */
+    --background-color: #000000;
+    --background-alt: #0a0a0a;
+    --background-alt-2: #111111;
+    --background-alt-3: #1a1a1a;
+
+    /* Textfärger */
+    --text-color: #ffffff;
+    --text-color-muted: #aaaaaa;
+    --text-color-light: #cccccc;
+
+    /* Accent & interaktion */
+    --accent-color: #e9ff41;
+    --accent-hover: #c0d636;
+    --link-color: #e9ff41;
+    --link-hover-color: #ffffff;
+
+    /* Knappar */
+    --button-border: #e9ff41;
+    --button-border-hover: #ffffff;
+
+    /* Typsnitt - Uppdaterade för modern känsla */
+    --font-header: "Syne", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* === Grundinställningar === */
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    /* Något högre för bättre läsbarhet */
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* === Typografi === */
+p {
+    font-weight: 400;
+    /* Inter ser bäst ut i 400 för läsbarhet */
+    font-family: var(--font-body);
+    margin: 0 0 1.5rem 0;
+    letter-spacing: 0.02em;
+    /* Subtil luft för mörk bakgrund */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-header);
+    font-weight: 800;
+    /* Kraftig vikt för Syne */
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    /* Tajtare för en professionell "look" */
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
+
+/* === Knappar === */
+.aa-button {
+    /* font-family: var(--font-header) !important; */
+    color: var(--primary-color) !important;
+    border-radius: 3px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.07em !important;
+    text-transform: uppercase !important;
+    background-color: transparent !important;
+    border: 2px solid var(--primary-color) !important;
+    padding: 12px 24px;
+    display: inline-block;
+}
+
+.aa-button:hover {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(233, 255, 65, 0.15) !important;
+}
+
+
+/* === Layout & Navigation === */
+
+/* Header */
+ul.sub-menu.kb-nav-sub-menu {
+    background: transparent !important;
+    font-size: 14px;
+}
+
+.content-area {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+nav {
+    font-family: var(--font-header) !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.02em !important;
+}
+
+/* === Startsida / Kategorier === */
+.category-card:hover>div {
+    transform: translateY(-4px);
+    background-color: rgba(28, 28, 28, 0.9);
+    cursor: pointer;
+    outline: 2px solid var(--text-color);
+    border-radius: 8px;
+}
+
+/* === Kategorisida === */
+
+/* En snygg hover-effekt på hela raden om du vill att det ska kännas interaktivt */
+
+.paket-row {
+    background-color: transparent;
+    /* Tvingar fram ett lager */
+    transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.paket-row:hover {
+    background-color: rgba(233, 255, 65, 0.02);
+    transition: background 0.4s ease;
+}
+
+.pa-package-image img {
+    border-radius: 12px;
+    /* Starkare glow: ökad opacitet till 0.3 och spridning till 40px */
+    /* box-shadow: 0 0 40px rgba(233, 255, 65, 0.3);  */
+    border: 1px solid rgba(233, 255, 65, 0.1);
+    /* En supertunn kant gör att bilden separeras från det svarta */
+    transition: all 0.4s ease;
+}
+
+.pa-package-image:hover img {
+    /* box-shadow: 0 0 60px rgba(233, 255, 65, 0.5);  */
+    transform: translateY(-5px);
+}
+
+.glass-box {
+    background: rgba(255, 255, 255, 0.03) !important;
+    /* Väldigt transparent vit */
+    backdrop-filter: blur(10px);
+    /* Själva glaseffekten - suddar bakgrunden */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    /* Tunn kant som fångar ljuset */
+    border-radius: 12px;
+    padding: 30px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+}
+
+/* Gör att priset sticker ut lite extra inuti glaset */
+.glass-box h3,
+.glass-box .kt-adv-heading_3 {
+    /* color: var(--primary-color) !important; */
+    font-weight: 800;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+/* === Single Page === */
+
+/* Styling för spec-rutorna på undersidan */
+.spec-box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: var(--background-alt-2);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.spec-box:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+}
+
+
+/* Gör att högtalaren "lyfter" från gradient-bakgrunden */
+.package-detail-img img {
+    filter: drop-shadow(0 0 20px rgba(40, 37, 37, 0.92));
+    transition: transform 0.5s ease !important;
+}
+
+.package-detail-img:hover img {
+    transform: scale(1.02) translateY(-5px);
+}
+
+.price-tag {
+    font-family: var(--font-header) !important;
+    font-size: 2.2rem !important;
+    color: var(--accent-color) !important;
+    display: block;
+    margin-top: 20px;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.1); */
+    padding-bottom: 15px;
+}
+
+.price-tag span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    display: block;
+    letter-spacing: 2px;
+}
+
+/* === FORM === */
+
+.kb-adv-form-success {
+    background: #13b84e !important;
+    border-radius: 3px !important;
+    color: #defbf0 !important;
+    margin-top: 20px !important;
+    font-weight: bold !important;
+}
+
+/* === KONTAKT === */
+
+.minimal-info-box {
+    max-width: 1200px !important;
+    /* margin: 0 auto !important; */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    background: rgba(255, 255, 255, 0.02) !important;
+    /* Extremt svag vit toning */
+
+    /* En tunn, halvtransparent vit linje istället för gult */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+
+    /* Ingen färgad shadow - bara en svag svart skugga för djup */
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) !important;
+
+    border-radius: 8px !important;
+    /* Skarpa hörn för teknisk look */
+    padding: 60px !important;
+    transition: border-color 0.4s ease;
+}
+
+/* En mycket subtil förändring vid hover så den känns interaktiv */
+.minimal-info-box:hover {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+footer {
+
+    & h2,
+    & h3,
+    & h4,
+    & a {
+        margin: 0 !important;
+        padding: 0 !important;
+        text-decoration: none !important;
+        color: var(--link-hover-color);
+    }
+}
+
+footer a:hover {
+    color: var(--accent-color);
+}
+
+.icon:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.taglines h3 {
+    
+}
+
+.taglines h3:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* En liten gul "markör" i toppen som visar att sektionen är viktig */
+/* .minimal-info-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%; 
+    width: 40px;
+    height: 2px;
+    background: #e9ff41; 
+} */
+
+/* NAMN PÅ CHATTAR:
+WooCommerce produktkategori sida AW
+Seo vänlig sida
+*/

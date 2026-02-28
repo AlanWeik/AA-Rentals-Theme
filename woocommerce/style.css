@@ -1,0 +1,276 @@
+.shop-h1{
+        margin: 0;
+}
+
+.woocommerce .woocommerce-ordering select {
+    appearance: none;
+    /* Ta bort standardutseendet för bättre kontroll */
+    border: none;
+    /* Ta bort gränsen för ett renare utseende */
+    padding: 0.5em 1em;
+    /* Justerat för att ge lite luft runt texten */
+    height: auto;
+    /* Låt höjden vara dynamisk baserat på innehållet */
+    border-radius: 4px;
+    /* Lägger till en mild rundning för en modern känsla */
+    width: 100%;
+    /* Gör så att det fyller sin förälder */
+    background-color: #f7f7f7;
+    /* Lägger till en ljus bakgrundsfärg */
+    color: #333;
+    /* Mer neutral textfärg */
+    box-shadow: none;
+    /* Ta bort skugga för ett mer minimalistiskt utseende */
+    cursor: pointer;
+    /* Gör det tydligt att det är interaktivt */
+}
+
+ul.products {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.woocommerce ul.products li.product img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+
+h2.woocommerce-loop-product__title {
+    color: black;
+    font-size: 1.2em !important;
+}
+
+.woocommerce ul.products li.product .price {
+    display: block;
+    color: black;
+    font-weight: 600;
+    margin-bottom: .5em;
+    font-size: 1em;
+}
+
+.price {
+    color: black !important;
+    font-weight: 600 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {
+    display: none;
+}
+
+.woocommerce-tabs.wc-tabs-wrapper {
+    text-align: center;
+}
+
+.product_meta {
+    display: none;
+}
+
+.woocommerce ul.products li.product .button {
+    background-color: var(--primary-color);
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    border: 2px solid black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+
+}
+
+.woocommerce ul.products li.product .button:hover {
+    background-color: #c0d636 !important;
+    /* lite mörkare lime */
+    transform: translateY(-3px) !important;
+    box-shadow: 0 10px 25px rgba(233, 255, 65, 0.3) !important;
+}
+
+.woocommerce ul.products li.product a {
+    text-align: center;
+}
+
+/* === WooCommerce Single Product === */
+
+/* Single product bild storlek */
+.woocommerce div.product div.images img {
+    max-width: 530.0px;
+    max-height: 530px;
+    object-fit: contain;
+    margin: 0 auto;
+
+}
+
+/* Background och text färg */
+.woocommerce-single-content {
+    background: white !important;
+    color: black !important;
+}
+
+h1.product_title.entry-title {
+    margin-bottom: 0;
+}
+
+.woocommerce div.product .summary .price {
+    color: black !important;
+    font-size: 2em !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.summary.entry-summary {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.woocommerce div.product .summary .cart .button {
+    background-color: var(--primary-color) !important;
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    padding: 7px 15px !important;
+    letter-spacing: 1px !important;
+    border: 2px solid black !important;
+    text-transform: uppercase !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .16) !important;
+    height: 45px;
+
+}
+
+.woocommerce form .form-row {
+    padding: 0px;
+    margin: 0 0 5px;
+}
+
+/* Grundläggande styling */
+.woocommerce div.product form.cart {
+    /* padding: 20px; */
+    background-color: #fff;
+    /* Håll bakgrunden vit för minimalistisk känsla */
+    /* border-radius: 8px; */
+    /* Runda hörn för en modern look */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    /* Lätt skugga för djup */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+
+}
+
+
+/* För inmatningsfält och mängdjustering */
+div.product form.cart input[type="number"],
+input[type="text"] {
+    border: 1px solid black;
+    /* Ljus grå kant */
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    width: unset;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    /* Gör fälten responsiva och fyll hela containerbredden */
+    max-width: 100%;
+    /* Förhindra att de blir för breda */
+    box-sizing: border-box;
+    /* Se till att padding inte ökar bredden */
+}
+
+/* Padding för clear knappen  */
+.form-row.form-row-wide.show_if_two_dates {
+    padding-bottom: 20px;
+}
+
+/* Clear dates knappen  */
+a.reset_dates {
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    background: black;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+
+
+/* Justering av etiketter för bättre läsbarhet */
+div.product form.cart label {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+/* Justera storlek på produktantal */
+div.product form.cart .quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+.booking_details p {
+    margin: 20px 0;
+}
+
+/* Responsiv design */
+@media screen and (max-width: 768px) {
+    div.product form.cart {
+        padding: 15px;
+    }
+
+    div.product form.cart .single_add_to_cart_button {
+        width: 100%;
+        /* Gör knappen fullbredd på mobiler */
+    }
+}
+
+
+/* Woocommerce checkout  */
+
+.wc-block-cart__submit-container {
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+    border: 1px solid black !important;
+    padding: 7px 12px !important;
+    cursor: pointer !important;
+    border-radius: 3px !important;
+    text-decoration: none !important;
+}
+
+
+/* ==== Woocommerce Cart  ===== */
+
+.wc-block-components-sidebar-layout.wc-block-cart {
+    background: white;
+    color: black;
+    margin-top: 9vh;
+    padding: 5vh 5vw !important;
+    border-radius: 8px;
+}
+
+/* Checkout  */
+.wc-block-components-sidebar-layout {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 80vw;
+    padding: 5vh 5vh;
+    background: white;
+    color: black;
+    margin: 4rem auto !important;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
